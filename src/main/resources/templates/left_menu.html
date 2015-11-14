@@ -1,0 +1,24 @@
+	<div class="col-xs-12 col-sm-3 wrap-user-menu">
+		<div class="block-content">
+			<div class="text-center">
+				<img href="userpage" src="images/avatar-img.jpg" alt=""
+					class="avatar-image avatar-image-url" />
+			</div>
+			<div>
+				<span th:text="${user.login}">Такий-то юзер</span>
+			</div>
+
+			<div class="text-left>
+									<span class="toggle-user-menu">
+				</span>
+				<ul class="left-user-menu">
+					<li><a href="/user_profile">Ваш профіль</a></li>
+					<li><a href="">Друзі</a></li>
+					<li><a href="/list">Новини</a></li>
+					<li><a href="">Відповіді</a></li>
+					<li><a href="/logout">Вийти</a></li>
+				</ul>
+			</div>
+
+		</div>
+	</div>
